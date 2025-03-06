@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+// message: データの構造を定義するために使う
+message Task {
+  string email = 1;
+  string company_name = 2;
+  string deadline = 3;
+  string task = 4;
+  string submit_to = 5;
+}
