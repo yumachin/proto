@@ -4,5 +4,5 @@ syntax = "proto3";
 message User {
   // 32ビット符号なし整数
   uint32 id = 1;
-  string name = 2 ;
+  string name = 2;
 }
