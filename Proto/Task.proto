@@ -8,3 +8,7 @@ message Task {
   string task = 4;
   string submit_to = 5;
 }
+
+message TaskResponse {
+  repeated Task tasks = 1;
+}
