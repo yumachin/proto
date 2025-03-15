@@ -3,6 +3,6 @@ syntax = "proto3";
 // message: データの構造を定義するために使う
 message User {
   // 32ビット符号なし整数
-  uint32 id = 1
-  string name = 2 
+  uint32 id = 1;
+  string name = 2 ;
 }
